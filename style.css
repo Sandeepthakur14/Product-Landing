@@ -1,0 +1,266 @@
+body{
+    background-color:#eeeee0;
+    padding:0;
+    margin:0;
+}
+#logo{
+    width:300px;
+    margin:0;
+}
+#header{
+    background-color: #fff;
+    padding:15px;
+    padding-top:30px;
+    width:100%;
+    top:0;
+    position: fixed;
+    z-index:1;
+}
+#header ul{
+    list-style: none;
+    display:inline;
+}
+#header ul li{
+    display: inline;
+}
+.nav-link{
+    text-decoration: none;
+    color:black;
+    margin-right:80px;
+    font-family:arial;
+    font-size:18px;
+    transition: 0.7s;
+}
+.nav-link:hover{
+    font-size:20px;
+}
+#nav-bar{
+    float:right
+}
+#slogan{
+    text-align:center;
+    font-size:30px;
+    font-family: arial;
+}
+#form{
+    text-align:center;
+}
+#email{
+    margin-bottom:10px;
+    width:20%;
+    padding:0.7%;
+    border:black;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px black;
+}
+#submit{
+    border:0;
+    background-color:black;
+    color:white;
+    padding: 1%;
+    border-radius: 3px;
+    font-family:arial;
+    font-weight:600;
+    cursor: pointer;
+    margin-top:10px;
+    transition:0.8s;
+}
+#submit:hover{
+    box-shadow:2px 2px 12px black;
+}
+#features{
+    margin-left: 200px;
+    margin-top:50px;
+}
+#f1{
+    display: grid;
+    grid-template-columns: 130px 750px;
+    margin-bottom:20px;
+}
+#f2{
+    display: grid;
+    grid-template-columns: 130px 750px;
+    margin-bottom:20px;
+}
+#f3{
+    display: grid;
+    grid-template-columns: 130px 750px;
+    margin-bottom:20px;
+}
+.fheading{
+    font-family:arial;
+    font-size:25px;
+    opacity:0.9;
+    margin-bottom: 0;
+}
+.fdesc p{
+    font-family: arial;
+    line-height:23px;
+    opacity:0.8;
+    margin-top:0;
+}
+.fdesc{
+    display: block;
+    box-shadow:3px 3px 10px black;
+    padding-left:1%;
+    border-radius:5px;
+}
+iframe{
+    margin-left:420px;
+    border-radius: 10px;
+    margin-top:30px;
+    box-shadow:10px 10px 12px black;
+}
+.products{
+    border:2px solid black;
+    text-align:center;
+    padding-bottom:15px;
+    box-shadow:2px 2px 12px black;
+}
+#product{
+    margin-left:200px;
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap:20px;
+}
+.products h4{
+    background-color: rgb(24, 23, 23);
+    margin:0;
+    padding-top:15px;
+    padding-bottom: 5px;
+    color:#fff;
+    font-family:arial;
+}
+.products p{
+    font-family:arial;
+    font-weight:500;
+    opacity:0.9;
+}   
+.products a{
+    text-decoration:none;
+    background-color: #000;
+    padding:2%;
+    color:#fff;
+    font-family: arial;
+    transition: 0.7s;
+    border-radius: 5px;
+    font-weight:600;
+}
+.products a:hover{
+    background-color:#fff;
+    color:#000;
+    border:2px solid;
+}
+#footer{
+    margin-top:30px;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode:lighten;
+    padding:1%;
+    color:white;
+    font-family:arial;
+    padding-top: 2%;
+}
+#footer p{
+    margin-left:40%;
+}
+#flinks{
+    margin-left:40%;
+}
+#flinks a{
+    margin-right:10%;
+    text-decoration:none;
+    color:#fff;
+    margin-left:-2%;
+}
+@media only screen and (max-width:500px){
+    ul{
+        margin:0;
+    }
+    #email{
+        padding:1.5%;
+    }
+    #logo{
+        margin-bottom:10px;
+        margin-left: 60px;
+    }
+    #nav-bar{
+        margin-right: 6px;
+    }
+    .nav-link{
+        margin:0;
+        margin-right:65px;
+        font-size:18px;
+    }
+    .nav-link:hover{
+        font-size:18.5px;
+    }
+    #main{
+        margin-top:90px;
+    }
+    #email{
+        width:60%;
+    }
+    #features{
+        margin-left:0;
+        padding:5%;
+        margin-top:10px;
+    }
+    .icon{
+        display: none;
+    }
+    #f1{
+        display: block;
+        text-align: center;
+        line-height:40px;
+    }
+    #f2{
+        display: block;
+        text-align: center;
+        line-height:40px;
+    }
+    #f3{
+        display: block;
+        text-align: center;
+        line-height:40px;
+    }
+    .fdesc{
+        padding:5%;
+    }
+    iframe{
+        margin-left:25px;
+        width:90%; 
+    }
+    #product{
+        display: block;
+        margin-left:25px;
+        margin-right: 25px;
+    }
+    .products{
+        margin-bottom:20px;
+    }
+    #footer{
+        text-align:center;
+    }
+    #footer p{
+        margin:0;
+        margin-top:20px;
+        margin-bottom:10px;
+    }
+    #flinks{
+        margin-left:45px;
+        margin-top:10px;
+    }
+}
+@media only screen and (max-width:360px){
+    #logo{
+        margin-left:10px;
+    }
+    .nav-link {
+        margin-right:5px;
+    }
+    ul{
+        padding:0;
+        margin-right:60px;
+    }
+}
